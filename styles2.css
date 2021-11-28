@@ -1,0 +1,57 @@
+.text-start {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+}
+
+.text-start * {
+    color: rgb(17, 42, 64);
+    text-decoration: none;
+}
+
+.mb-0 button {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.sub-nav {
+    background-color: rgb(9, 21, 33);
+    display: fixed;
+}
+
+.sub-nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 13px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dropdown-menu {
+    background-color: rgb(9, 21, 33);
+}
+
+.divborder {
+    border: 2px solid rgb(9, 21, 33);
+    border-radius: 20px;
+    max-width: 900px;
+}
+
+.nav-tabs {
+    height: 23px;
+}
+
+.nav-tabs a {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.Item {
+    background-color: rgb(9, 21, 33);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}

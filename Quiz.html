@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles2.css" />
+    <link rel="stylesheet" type="text/css" href="nav.css" />
+    <title>Quiz</title>
+    <link rel="shortcut icon" href="multimedia/zorro.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+</head>
+
+<div class="pos-f-t sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Fábulas</a>
+    </nav>
+</div>
+
+<body class="">
+    <div class="Quiz">
+        <div id="pregunta1" class="container uwu1">
+            <div class="">
+                <div class="ColorLetra mt-4 mb-3">
+                    <h6>Pregunta 1</h6>
+                    <h1 class="text-center">¿Dónde se origina la fabula?</h1>
+                </div>
+
+                <div class="container d-flex-column justify-content-center uwu2">
+                    <div class="radio">
+                        <input checked class="radio" name="Preg1" id="resp1" type="radio" />
+                        <label class="QuizAnuncio text-center text-white" for="resp1">
+                Argentina
+              </label>
+                    </div>
+
+                    <div class="radio">
+                        <input class="radio" name="Preg1" id="resp2" type="radio" />
+                        <label class="QuizAnuncio text-center text-white" for="resp2">
+                Grecia
+              </label>
+                    </div>
+
+                    <div class="radio mb-3">
+                        <input class="radio" name="Preg1" id="resp3" type="radio" />
+                        <label id="respuesta-correcta1" class="QuizAnuncio text-center text-white" for="resp3">
+                India
+              </label>
+                    </div>
+                </div>
+
+                <div class="d-flex apa">
+                    <button id="enviar1" class="btn btnStyle">Enviar</button>
+                    <div id="modalExplicacion1" class="container display-none">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btnStyle" data-toggle="modal" data-target="#exampleModalCenter">
+                Explicacion
+              </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">
+                                            Explicación
+                                        </h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        La fábula nació en Oriente, concretamente en la India, con un afán didáctico o de enseñanza para educar a los hijos de los nobles e infundir en ellos valores y virtudes que les ayudaran a convertirse en gobernantes.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btnStyle" data-dismiss="modal">
+                        Cerrar
+                      </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="siguiente1" class="btn btnStyle display-none">
+              Siguiente
+            </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="pregunta2" class="container uwu1 display-none">
+            <div class="">
+                <div class="mt-4 mb-3">
+                    <h6>Pregunta 2</h6>
+                    <h1 class="text-center">¿Quién es el padre de la Fabula?</h1>
+                </div>
+
+                <div class="container d-flex-column justify-content-center">
+                    <div class="radio resp1_2">
+                        <input checked class="radio" name="Preg2" id="resp1_2" type="radio" />
+                        <label class="QuizAnuncio text-center text-white" for="resp1_2">
+                Carlos Menem
+              </label>
+                    </div>
+
+                    <div class="radio resp2_2">
+                        <input class="radio" name="Preg2" id="resp2_2" type="radio" />
+                        <label class="QuizAnuncio text-center text-white" for="resp2_2">
+                Hitler
+              </label>
+                    </div>
+
+                    <div class="radio resp3_2">
+                        <input class="radio" name="Preg2" id="resp3_2" type="radio" />
+                        <label class="QuizAnuncio text-center text-white" for="resp3_2">
+                Aristóteles
+              </label>
+                    </div>
+                    <div class="radio mb-3 resp4_2">
+                        <input class="radio" name="Preg2" id="resp4_2" type="radio" />
+                        <label id="respuesta-correcta2" class="QuizAnuncio text-center text-white" for="resp4_2">
+                Esopo
+              </label>
+                    </div>
+                </div>
+
+                <div class="d-flex apa">
+                    <button id="enviar2" class="btn btnStyle">Enviar</button>
+                    <div id="modalExplicacion2" class="container display-none">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btnStyle" data-toggle="modal" data-target="#exampleModalCenter2">
+                Explicacion
+              </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter2" tabindex="1000" role="dialog" aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle2">
+                                            Explicación
+                                        </h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        Considerado el "padre de todos los fabulistas", Esopo fue precursor de un género que luego tendría grandes exponentes, como Jean de La Fontaine, en Francia, en el siglo XVII, y Félix María Samaniego e Iriarte, en España, en el siglo XVIII.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btnStyle" data-dismiss="modal">
+                        Cerrar
+                      </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="siguiente2" class="btn btnStyle display-none">
+              Siguiente
+            </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="pregunta3" class="container uwu1 display-none">
+            <div class="">
+                <div class="mt-4 mb-3">
+                    <h6>Pregunta 3</h6>
+                    <h1 class="text-center">
+                        ¿Cuál es el final de la famosa fabula de la liebre y la tortuga?
+                    </h1>
+                </div>
+
+                <div class="container d-flex-column justify-content-center">
+                    <div class="radio">
+                        <input checked class="radio" name="Preg3" id="resp1_3" type="radio" />
+                        <label id="respuesta-correcta3" class="QuizAnuncio text-center text-white" for="resp1_3">
+                La liebre se queda dormida y la tortuga gana
+              </label>
+                    </div>
+
+                    <div class="radio">
+                        <input class="radio" name="Preg3" id="resp2_3" type="radio" />
+                        <label class="QuizAnuncio text-center text-white" for="resp2_3">
+                La tortuga hace trampa
+              </label>
+                    </div>
+
+                    <div class="radio">
+                        <input class="radio" name="Preg3" id="resp3_3" type="radio" />
+                        <label class="QuizAnuncio text-center text-white" for="resp3_3">
+                La tortuga se rinde
+              </label>
+                    </div>
+                    <div class="radio mb-3">
+                        <input class="radio" name="Preg3" id="resp4_3" type="radio" />
+                        <label class="QuizAnuncio text-center text-white" for="resp4_3">
+                La liebre le gana a la tortuga
+              </label>
+                    </div>
+                </div>
+
+                <div class="d-flex apa">
+                    <button id="enviar3" class="btn btnStyle">Enviar</button>
+                    <div id="modalExplicacion3" class="container display-none">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btnStyle" data-toggle="modal" data-target="#exampleModalCenter3">
+                Explicacion
+              </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle3" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle3">
+                                            Explicación
+                                        </h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        "No se sabe cuánto tiempo la liebre se quedó dormida, pero cuando ella se despertó, vio con pavor que la tortuga se encontraba a tan solo tres pasos de la meta. En un sobresalto, salió corriendo con todas sus fuerzas, pero ya era muy tarde: ¡la tortuga
+                                        había alcanzado la meta y ganado la carrera!"
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btnStyle" data-dismiss="modal">
+                        Cerrar
+                      </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="siguiente3" class="btn btnStyle display-none">
+              Siguiente
+            </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="pregunta4" class="container uwu1 display-none">
+            <div class="">
+                <div class="mt-4 mb-3">
+                    <h6>Pregunta 4</h6>
+                    <h1 class="text-center">¿Quién fue Augusto Monterroso?</h1>
+                </div>
+
+                <div class="container d-flex-column justify-content-center">
+                    <div class="radio">
+                        <input checked class="radio" name="Preg4" id="resp1_4" type="radio" />
+                        <label class="QuizAnuncio text-center text-white" for="resp1_4">
+                Un historiador
+              </label>
+                    </div>
+
+                    <div class="radio">
+                        <input class="radio" name="Preg4" id="resp2_4" type="radio" />
+                        <label id="respuesta-correcta4" class="QuizAnuncio text-center text-white" for="resp2_4">
+                Un importante escritor y fabulista
+              </label>
+                    </div>
+
+                    <div class="radio">
+                        <input class="radio" name="Preg4" id="resp3_4" type="radio" />
+                        <label class="QuizAnuncio text-center text-white" for="resp3_4">
+                Un critico de arte
+              </label>
+                    </div>
+                </div>
+
+                <div class="d-flex apa">
+                    <button id="enviar4" class="btn btnStyle">Enviar</button>
+                    <div id="modalExplicacion4" class="container display-none">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btnStyle" data-toggle="modal" data-target="#exampleModalCenter4">
+                Explicacion
+              </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle4" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle4">
+                                            Explicación
+                                        </h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        El virus infecta las células del sistema inmunitario humano, destruyendo o paralizando su funcionamiento. Aquellas personas cuyo sistema inmunitario ha sido dañado por el VIH, serán mucho más vulnerables a otras infecciones o cánceres
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btnStyle" data-dismiss="modal">
+                        Cerrar
+                      </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="siguiente4" class="btn btnStyle display-none">
+              Siguiente
+            </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="pregunta5" class="container uwu1 display-none">
+            <div class="">
+                <div class="mt-4 mb-3">
+                    <h6>Pregunta 5</h6>
+                    <h1 class="text-center">¿Cuál es el fin de la Fabula?</h1>
+                </div>
+
+                <div class="container d-flex-column justify-content-center">
+                    <div class="radio">
+                        <input checked class="radio" name="Preg5" id="resp1_5" type="radio" />
+                        <label class="QuizAnuncio text-center text-white" for="resp1_5">
+                Divertir y entretener
+              </label>
+                    </div>
+
+                    <div class="radio">
+                        <input class="radio" name="Preg5" id="resp2_5" type="radio" />
+                        <label id="respuesta-correcta5" class="QuizAnuncio text-center text-white" for="resp2_5">
+                Enseñar y educar a través de la moraleja
+              </label>
+                    </div>
+
+                    <div class="radio">
+                        <input class="radio" name="Preg5" id="resp3_5" type="radio" />
+                        <label class="QuizAnuncio text-center text-white" for="resp3_5">
+                Informar acerca de temas importantes
+              </label>
+                    </div>
+                </div>
+
+                <div class="d-flex apa">
+                    <button id="enviar5" class="btn btnStyle">Enviar</button>
+                    <div id="modalExplicacion5" class="container display-none">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btnStyle" data-toggle="modal" data-target="#exampleModalCenter5">
+                Explicacion
+              </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle5" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle5">
+                                            Explicación
+                                        </h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        Se utilizan para hacer una crítica a los comportamientos y, a la misma vez, para transmitir determinadas enseñanzas y valores.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btnStyle" data-dismiss="modal">
+                        Cerrar
+                      </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="siguiente5" class="btn btnStyle display-none">
+              Siguiente
+            </button>
+                </div>
+            </div>
+        </div>
+        <div id="Puntuaciones" class="uwu1 container apa2 display-none">
+            <h1>Resultado</h1>
+            <div class="container apa2">
+                <div id="Puntuacion1">
+                    <div class="QuizAnuncio2 PuntuacionTexto1 cursor-default">
+                        <h2>¡¡¡Gracias por realizar el Quiz!!!</h2>
+                    </div>
+                </div>
+
+                <a href="index.html" class="btn btnStyle">Volver al inicio</a>
+            </div>
+        </div>
+    </div>
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <script src="script.js "></script>
+</body>
+
+</html>
