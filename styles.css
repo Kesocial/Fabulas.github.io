@@ -144,7 +144,7 @@ body {
     border: none !important;
 }
 
-#entrada {
+.entrada {
     background-color: #2e4c6d;
     border-radius: 20px;
     opacity: 0.9;
@@ -159,8 +159,8 @@ body {
     padding: 0px;
 }
 
-#entrada p,
-#entrada h1 {
+.entrada p,
+.entrada h1 {
     color: #daddfc;
 }
 
